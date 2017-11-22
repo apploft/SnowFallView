@@ -8,13 +8,16 @@
 import CoreGraphics
 
 public class SnowFallView: UIView {
-    public var density: Float = 1.0 {
+    
+    var isSnowing = false
+    
+    public var density: Float = 4.0 {
         didSet {
             self.setUpEmitters()
         }
     }
     
-    override init(frame: CGRect) {
+    override public init(frame: CGRect) {
         super.init(frame: frame)
         
         self.setUp()
@@ -27,6 +30,7 @@ public class SnowFallView: UIView {
     }
     
     public func start() {
+        isSnowing = true
         var depth = 0
         
         guard let sublayers = self.layer.sublayers as? [CAEmitterLayer] else {
@@ -40,6 +44,7 @@ public class SnowFallView: UIView {
     }
     
     public func stop() {
+        isSnowing = false
         guard let sublayers = self.layer.sublayers as? [CAEmitterLayer] else {
             return
         }
@@ -54,7 +59,7 @@ public class SnowFallView: UIView {
     }
     
     func setUp() {
-        self.backgroundColor = UIColor.clearColor()
+        self.backgroundColor = .clear
         self.layer.masksToBounds = true
     }
     
@@ -70,11 +75,11 @@ public class SnowFallView: UIView {
         snowFlake.lifetime = 15
         snowFlake.lifetimeRange = 5.0
         
-        let bundle = NSBundle(forClass: self.dynamicType)
-        let image = UIImage(named: "snowflake", inBundle: bundle, compatibleWithTraitCollection: nil)
+        let bundle = Bundle(for: type(of: self))
+        let image = UIImage(named: "snowflake", in: bundle, compatibleWith: nil)
         
-        snowFlake.contents = image?.CGImage
-        snowFlake.scale = 1 / UIScreen.mainScreen().scale
+        snowFlake.contents = image?.cgImage
+        snowFlake.scale = 1.5 / UIScreen.main.scale
         snowFlake.name = "snowflake"
         snowFlake.velocity = 60
         snowFlake.emissionLongitude = CGFloat(M_PI)
@@ -97,5 +102,16 @@ public class SnowFallView: UIView {
             
             self.layer.addSublayer(emitter)
         }
+    }
+    
+    override public func layoutSubviews() {
+        super.layoutSubviews()
+        if isSnowing {
+            setUpEmitters()
+        }
+    }
+    
+    override public func point(inside point: CGPoint, with event: UIEvent?) -> Bool {
+        return false
     }
 }

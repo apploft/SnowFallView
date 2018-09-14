@@ -82,14 +82,14 @@ public class SnowFallView: UIView {
         snowFlake.scale = 1.5 / UIScreen.main.scale
         snowFlake.name = "snowflake"
         snowFlake.velocity = 60
-        snowFlake.emissionLongitude = CGFloat(M_PI)
-        snowFlake.emissionLatitude = CGFloat(M_PI_4) / 4.0
+        snowFlake.emissionLongitude = .pi
+        snowFlake.emissionLatitude = .pi / 4.0
         snowFlake.spin = 0.7
         
         for i in 0..<3 {
             let emitter = CAEmitterLayer()
             emitter.position = CGPoint(x: self.center.x, y: 0)
-            emitter.emitterShape = kCAEmitterLayerLine
+            emitter.emitterShape = CAEmitterLayerEmitterShape.line
             emitter.emitterSize = CGSize(width: self.bounds.width * 1.5, height:1)
             
             let depth = Float(i) / 3.0

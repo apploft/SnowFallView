@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		741FC4F57F4855951139995E /* Pods_SnowFallViewExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0ABAEA8FF3D90E9BFE1F873 /* Pods_SnowFallViewExample.framework */; };
 		A273E01A1CDCDC71009CDE0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A273E0191CDCDC71009CDE0A /* AppDelegate.swift */; };
 		A273E01C1CDCDC71009CDE0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A273E01B1CDCDC71009CDE0A /* ViewController.swift */; };
-		A29178876030001775AF8270 /* Pods_SnowFallViewExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F939A47272738307D1ACADF /* Pods_SnowFallViewExample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0F939A47272738307D1ACADF /* Pods_SnowFallViewExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnowFallViewExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		44AE80484E6798684A63A3EB /* Pods-SnowFallViewExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnowFallViewExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-SnowFallViewExample/Pods-SnowFallViewExample.release.xcconfig"; sourceTree = "<group>"; };
-		98CEF61672A3B952128BFF3B /* Pods-SnowFallViewExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnowFallViewExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SnowFallViewExample/Pods-SnowFallViewExample.debug.xcconfig"; sourceTree = "<group>"; };
+		0579D3FC4ECE32C81D35CBBE /* Pods-SnowFallViewExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnowFallViewExample.debug.xcconfig"; path = "Target Support Files/Pods-SnowFallViewExample/Pods-SnowFallViewExample.debug.xcconfig"; sourceTree = "<group>"; };
 		A273E0161CDCDC71009CDE0A /* SnowFallViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnowFallViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A273E0191CDCDC71009CDE0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A273E01B1CDCDC71009CDE0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A273E0251CDCDC71009CDE0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0ABAEA8FF3D90E9BFE1F873 /* Pods_SnowFallViewExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnowFallViewExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D30F632FFD01A01BCD33A0DB /* Pods-SnowFallViewExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnowFallViewExample.release.xcconfig"; path = "Target Support Files/Pods-SnowFallViewExample/Pods-SnowFallViewExample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,20 +27,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A29178876030001775AF8270 /* Pods_SnowFallViewExample.framework in Frameworks */,
+				741FC4F57F4855951139995E /* Pods_SnowFallViewExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A108E9A93CD4E0E1B8B8FDF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0ABAEA8FF3D90E9BFE1F873 /* Pods_SnowFallViewExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A273E00D1CDCDC71009CDE0A = {
 			isa = PBXGroup;
 			children = (
 				A273E0181CDCDC71009CDE0A /* SnowFallViewExample */,
 				A273E0171CDCDC71009CDE0A /* Products */,
-				CAC87BB35F2CEC779E6D19FB /* Pods */,
-				B154C7033B5B5791BBD398D1 /* Frameworks */,
+				CDD2E3E9268DF3F35EADF29A /* Pods */,
+				6A108E9A93CD4E0E1B8B8FDF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,21 +70,13 @@
 			path = SnowFallViewExample;
 			sourceTree = "<group>";
 		};
-		B154C7033B5B5791BBD398D1 /* Frameworks */ = {
+		CDD2E3E9268DF3F35EADF29A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0F939A47272738307D1ACADF /* Pods_SnowFallViewExample.framework */,
+				0579D3FC4ECE32C81D35CBBE /* Pods-SnowFallViewExample.debug.xcconfig */,
+				D30F632FFD01A01BCD33A0DB /* Pods-SnowFallViewExample.release.xcconfig */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		CAC87BB35F2CEC779E6D19FB /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				98CEF61672A3B952128BFF3B /* Pods-SnowFallViewExample.debug.xcconfig */,
-				44AE80484E6798684A63A3EB /* Pods-SnowFallViewExample.release.xcconfig */,
-			);
-			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,12 +86,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A273E0281CDCDC71009CDE0A /* Build configuration list for PBXNativeTarget "SnowFallViewExample" */;
 			buildPhases = (
-				78215D741F4BE0D9227E8BC2 /* Check Pods Manifest.lock */,
+				CEA8A1E1ED461D02F4624A6C /* [CP] Check Pods Manifest.lock */,
 				A273E0121CDCDC71009CDE0A /* Sources */,
 				A273E0131CDCDC71009CDE0A /* Frameworks */,
 				A273E0141CDCDC71009CDE0A /* Resources */,
-				76FBA44A2A9D4AC619C2F7D0 /* Embed Pods Frameworks */,
-				782B5EFBA77A289BEA85C10E /* Copy Pods Resources */,
+				25E63F7A9140205397D4A456 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -114,6 +113,7 @@
 				TargetAttributes = {
 					A273E0151CDCDC71009CDE0A = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = ZKNRVN92RA;
 					};
 				};
 			};
@@ -122,6 +122,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -146,49 +147,44 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		76FBA44A2A9D4AC619C2F7D0 /* Embed Pods Frameworks */ = {
+		25E63F7A9140205397D4A456 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SnowFallViewExample/Pods-SnowFallViewExample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnowFallView/SnowFallView.framework",
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnowFallView.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SnowFallViewExample/Pods-SnowFallViewExample-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SnowFallViewExample/Pods-SnowFallViewExample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		78215D741F4BE0D9227E8BC2 /* Check Pods Manifest.lock */ = {
+		CEA8A1E1ED461D02F4624A6C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
+			inputFileListPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SnowFallViewExample-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		782B5EFBA77A289BEA85C10E /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SnowFallViewExample/Pods-SnowFallViewExample-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -243,7 +239,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -282,7 +278,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -291,25 +287,29 @@
 		};
 		A273E0291CDCDC71009CDE0A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98CEF61672A3B952128BFF3B /* Pods-SnowFallViewExample.debug.xcconfig */;
+			baseConfigurationReference = 0579D3FC4ECE32C81D35CBBE /* Pods-SnowFallViewExample.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = ZKNRVN92RA;
 				INFOPLIST_FILE = SnowFallViewExample/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.minorblend.SnowFallViewExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		A273E02A1CDCDC71009CDE0A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 44AE80484E6798684A63A3EB /* Pods-SnowFallViewExample.release.xcconfig */;
+			baseConfigurationReference = D30F632FFD01A01BCD33A0DB /* Pods-SnowFallViewExample.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = ZKNRVN92RA;
 				INFOPLIST_FILE = SnowFallViewExample/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.minorblend.SnowFallViewExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};

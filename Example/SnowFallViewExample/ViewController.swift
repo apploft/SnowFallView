@@ -12,17 +12,17 @@ import SnowFallView
 class ViewController: UIViewController {
 
     var snowFallView: SnowFallView?
-    
+
     override func loadView() {
         self.snowFallView = SnowFallView()
         self.view = self.snowFallView
     }
-    
-    override func viewDidAppear(animated: Bool) {
+
+    override func viewDidAppear(_ animated: Bool) {
         self.snowFallView?.start()
     }
 
-    override func viewDidDisappear(animated: Bool) {
+    override func viewDidDisappear(_ animated: Bool) {
         self.snowFallView?.stop()
     }
 }

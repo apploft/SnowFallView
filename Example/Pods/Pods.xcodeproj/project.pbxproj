@@ -7,244 +7,224 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		24418E88F9159C036CBF78E8E2F8F8A9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23B3C2F7A60189AA38D256A0120B8730 /* CoreGraphics.framework */; };
-		4AE4EF801520679BB4AE682561E8A2CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95FA9D6C62076D7840475E09238EED1E /* Foundation.framework */; };
-		9AC56314A2212B7A9630140473474B96 /* snowflake.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53AEF43067D7FF232A1A548C237F936F /* snowflake.xcassets */; };
-		CD669CCAE9529DA9E71E36A401CF9289 /* SnowFallView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8EC8AF315AFF80BE9C71733BA48FAC /* SnowFallView-dummy.m */; };
-		D10F70F0BE72FD9206C760EA4087DE0C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F79ACD206D7284CF469DA6B24AFACE9 /* UIKit.framework */; };
-		D3C883B8215C5A3491A629CEC9BD023E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95FA9D6C62076D7840475E09238EED1E /* Foundation.framework */; };
-		D73F48DDE784AF0098C42B041A0FC690 /* Pods-SnowFallViewExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F19F4E9B7DD3C5784B7897C2E7DB0B3D /* Pods-SnowFallViewExample-dummy.m */; };
-		DE64ED1E7810F54C09F8E15554C7A71F /* Pods-SnowFallViewExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D995702D97C531245F950B8B2E70831 /* Pods-SnowFallViewExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E21CD6286659B1F90A48F8DBF6A2F57C /* SnowFallView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C0C4951B42250B3B11E63623EB93F9 /* SnowFallView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FB1CEB0C784C4ACC2DEDCA5843073902 /* SnowFallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D3E0165ADA726F528ABFA0C32CEABD /* SnowFallView.swift */; };
+		27EF26ADEBA09EBE5B46CCE0EDE8B4C4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B55A966FE8239BE4C3B47226078D335 /* CoreGraphics.framework */; };
+		4A52DC75D7FC02298BE0D67F58C6C8F9 /* snowflake.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C7D23E88E1ABF9BEC17F8FC41B7244C /* snowflake.xcassets */; };
+		581B5F969EDE5EB9DC8653004BB5434E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BCCB175CA0769D3417554E109973180 /* Foundation.framework */; };
+		7C1F22B8BEC500D017DD55F307816F1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BCCB175CA0769D3417554E109973180 /* Foundation.framework */; };
+		7C8207B257934470B888A2BD8202569D /* SnowFallView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 435412DDA850A34897A5A90540D59018 /* SnowFallView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E3AE6698BCF02FB1996EB33812DF798 /* Pods-SnowFallViewExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 285E868BCBDE598DB424FAF4A695153B /* Pods-SnowFallViewExample-dummy.m */; };
+		AA4F7B4D51DF4A07559C51E1B0497F31 /* Pods-SnowFallViewExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B9A34D431D99C64C88EFE97C713A6A3 /* Pods-SnowFallViewExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E42BC12FB2E1C9C0E65A12DE398A97AE /* SnowFallView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D69D23302393E713CE15AB602292C49C /* SnowFallView-dummy.m */; };
+		E4A0B612041A295A814FD77A7563FDB4 /* SnowFallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A86707F928725AF31CA48928C68F994 /* SnowFallView.swift */; };
+		F48D2692C09F002590689D86A84A05D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E541DC2E86DE933DA3ABEDC01720A5B4 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9E87E832F0428A7445A4F4C6BEFA324A /* PBXContainerItemProxy */ = {
+		01704FB78F1557E3C020F5E253B03E63 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 61BC1ECD928FF0356F125CCEB0D9B20B;
+			remoteGlobalIDString = 0A0EA0D82C795AA59A53CE73C5C4815D;
 			remoteInfo = SnowFallView;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1617EECFCA45FFB9CA525F11518B9F14 /* Pods_SnowFallViewExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnowFallViewExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		23B3C2F7A60189AA38D256A0120B8730 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		3032B02C489C365DC6175B69CFDD3524 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		31D01AECFB66664714DB06BA1FFA736E /* SnowFallView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnowFallView-prefix.pch"; sourceTree = "<group>"; };
-		38C0C4951B42250B3B11E63623EB93F9 /* SnowFallView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnowFallView-umbrella.h"; sourceTree = "<group>"; };
-		3D995702D97C531245F950B8B2E70831 /* Pods-SnowFallViewExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SnowFallViewExample-umbrella.h"; sourceTree = "<group>"; };
-		43D3E0165ADA726F528ABFA0C32CEABD /* SnowFallView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SnowFallView.swift; sourceTree = "<group>"; };
-		4481A41598B518A73BA0AECC298D041D /* SnowFallView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SnowFallView.modulemap; sourceTree = "<group>"; };
-		4F49FC5CC5316CF7203F4FCCAFD953FD /* SnowFallView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnowFallView.xcconfig; sourceTree = "<group>"; };
-		53AEF43067D7FF232A1A548C237F936F /* snowflake.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = snowflake.xcassets; sourceTree = "<group>"; };
-		60DF932DDE81EC4647E3414756C957B4 /* Pods-SnowFallViewExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SnowFallViewExample.debug.xcconfig"; sourceTree = "<group>"; };
-		6A9F78F3D2673D21B35F1CEE0F27B1E5 /* Pods-SnowFallViewExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SnowFallViewExample-resources.sh"; sourceTree = "<group>"; };
-		754E1DC8297366DCA9E8FBA1DE469B4E /* Pods-SnowFallViewExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SnowFallViewExample-acknowledgements.plist"; sourceTree = "<group>"; };
-		7C35F8CBE1C2AE8D23F4D4E236B4C10F /* Pods-SnowFallViewExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SnowFallViewExample-frameworks.sh"; sourceTree = "<group>"; };
-		7F79ACD206D7284CF469DA6B24AFACE9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		8B8EC8AF315AFF80BE9C71733BA48FAC /* SnowFallView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnowFallView-dummy.m"; sourceTree = "<group>"; };
-		95FA9D6C62076D7840475E09238EED1E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		ABDDC457B5CBE9C45636E4283AF77F2E /* SnowFallView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnowFallView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AEAC217524CA8FD943E072C5CDDD53AF /* Pods-SnowFallViewExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SnowFallViewExample-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B89CAAF8F14BA87CB0EF35E47B373AA9 /* Pods-SnowFallViewExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SnowFallViewExample.release.xcconfig"; sourceTree = "<group>"; };
-		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		E082CA5AA844B5B869603A1C00491162 /* Pods-SnowFallViewExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SnowFallViewExample.modulemap"; sourceTree = "<group>"; };
-		E6E3DF46A625088E42DA423669896B60 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F19F4E9B7DD3C5784B7897C2E7DB0B3D /* Pods-SnowFallViewExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SnowFallViewExample-dummy.m"; sourceTree = "<group>"; };
+		0BCCB175CA0769D3417554E109973180 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		19DE291301DB0AC76ED9A82273404CF0 /* SnowFallView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnowFallView.xcconfig; sourceTree = "<group>"; };
+		21B412D8E4610DD0DE22F9AAA321C97D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		285E868BCBDE598DB424FAF4A695153B /* Pods-SnowFallViewExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SnowFallViewExample-dummy.m"; sourceTree = "<group>"; };
+		2C7D23E88E1ABF9BEC17F8FC41B7244C /* snowflake.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = snowflake.xcassets; path = Pod/Assets/snowflake.xcassets; sourceTree = "<group>"; };
+		3D47369E2E36FDE9A013F3B5BC306AE6 /* Pods-SnowFallViewExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SnowFallViewExample.modulemap"; sourceTree = "<group>"; };
+		435412DDA850A34897A5A90540D59018 /* SnowFallView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnowFallView-umbrella.h"; sourceTree = "<group>"; };
+		4775508DC7026884CE363108F8F0D419 /* SnowFallView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SnowFallView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4B9A34D431D99C64C88EFE97C713A6A3 /* Pods-SnowFallViewExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SnowFallViewExample-umbrella.h"; sourceTree = "<group>"; };
+		53F9B32506ABC138DBFB0FDF40FF4D06 /* Pods-SnowFallViewExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SnowFallViewExample.release.xcconfig"; sourceTree = "<group>"; };
+		59B49E16C050563C6928AE22CD61B11A /* SnowFallView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnowFallView-prefix.pch"; sourceTree = "<group>"; };
+		5C83A455037774957309AC8B7C56C98C /* Pods-SnowFallViewExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SnowFallViewExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		788EB0EFF7A6C5F537CBEF46A3D032A6 /* SnowFallView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SnowFallView.modulemap; sourceTree = "<group>"; };
+		7A86707F928725AF31CA48928C68F994 /* SnowFallView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SnowFallView.swift; path = Pod/Classes/SnowFallView.swift; sourceTree = "<group>"; };
+		7B55A966FE8239BE4C3B47226078D335 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		907E6D2C6A3D151BC82CDE5DF1900468 /* Pods_SnowFallViewExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SnowFallViewExample.framework; path = "Pods-SnowFallViewExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BD0805A38910E6FB8E2ED20C7E3FE0DC /* Pods-SnowFallViewExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SnowFallViewExample-frameworks.sh"; sourceTree = "<group>"; };
+		D322F22AF009B8AE8B2F02AC0BD28802 /* Pods-SnowFallViewExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SnowFallViewExample-Info.plist"; sourceTree = "<group>"; };
+		D69D23302393E713CE15AB602292C49C /* SnowFallView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnowFallView-dummy.m"; sourceTree = "<group>"; };
+		DAC9FD8DC2B2B650C74E2A90DCA0DBD0 /* SnowFallView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SnowFallView-Info.plist"; sourceTree = "<group>"; };
+		E142A3DFCF7E369F581E0FB00DE51512 /* Pods-SnowFallViewExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SnowFallViewExample.debug.xcconfig"; sourceTree = "<group>"; };
+		E516B659CB09EEE0EEE162A6F93CDDAA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E541DC2E86DE933DA3ABEDC01720A5B4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		EFC872775B0E871DE52B44F34E45EBF2 /* Pods-SnowFallViewExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SnowFallViewExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		F4070021ABD039E7146D860A37E39D8D /* SnowFallView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnowFallView.framework; path = SnowFallView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6DAC71EAE4BF791FA00B693FD1CCAF28 /* Frameworks */ = {
+		6024A8CAE013FB6C1BD333ECFBED0F49 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3C883B8215C5A3491A629CEC9BD023E /* Foundation.framework in Frameworks */,
+				581B5F969EDE5EB9DC8653004BB5434E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		73167257D83104F129C9410A80C1A414 /* Frameworks */ = {
+		CB6051B5A6B8572A3CF752BDFFF82A13 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24418E88F9159C036CBF78E8E2F8F8A9 /* CoreGraphics.framework in Frameworks */,
-				4AE4EF801520679BB4AE682561E8A2CA /* Foundation.framework in Frameworks */,
-				D10F70F0BE72FD9206C760EA4087DE0C /* UIKit.framework in Frameworks */,
+				27EF26ADEBA09EBE5B46CCE0EDE8B4C4 /* CoreGraphics.framework in Frameworks */,
+				7C1F22B8BEC500D017DD55F307816F1B /* Foundation.framework in Frameworks */,
+				F48D2692C09F002590689D86A84A05D4 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0D930754063FEF1BDA33846B081B0828 /* Pod */ = {
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				971FCD337FF9B606358FCDC3DA706237 /* Assets */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
-		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E35B3E289DB984DA75A774080D293670 /* iOS */,
+				1C341239E7DCFB4BC950132D5B5C9F39 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5C8439866DA34F2D109CCCA630717CAC /* Resources */ = {
+		1C341239E7DCFB4BC950132D5B5C9F39 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				0D930754063FEF1BDA33846B081B0828 /* Pod */,
+				7B55A966FE8239BE4C3B47226078D335 /* CoreGraphics.framework */,
+				0BCCB175CA0769D3417554E109973180 /* Foundation.framework */,
+				E541DC2E86DE933DA3ABEDC01720A5B4 /* UIKit.framework */,
 			);
-			name = Resources;
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		63137CE534A1FB1440E9B9F93748FA2A /* Targets Support Files */ = {
+		6C518C5C7C2504550C3E01813DE977C0 /* Pods-SnowFallViewExample */ = {
 			isa = PBXGroup;
 			children = (
-				D91B69C464A59BD8FA340751A68A4408 /* Pods-SnowFallViewExample */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		7762534F9A01AB9DF628586D891E25A0 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1617EECFCA45FFB9CA525F11518B9F14 /* Pods_SnowFallViewExample.framework */,
-				ABDDC457B5CBE9C45636E4283AF77F2E /* SnowFallView.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				C8929D698566A32BD97CB1A205754F5F /* Development Pods */,
-				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
-				7762534F9A01AB9DF628586D891E25A0 /* Products */,
-				63137CE534A1FB1440E9B9F93748FA2A /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		9655C0226B1C90F288E126EB85CA95D6 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				43D3E0165ADA726F528ABFA0C32CEABD /* SnowFallView.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		971FCD337FF9B606358FCDC3DA706237 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				53AEF43067D7FF232A1A548C237F936F /* snowflake.xcassets */,
-			);
-			path = Assets;
-			sourceTree = "<group>";
-		};
-		A7EE560715050AEE105C472B15D4D9DE /* SnowFallView */ = {
-			isa = PBXGroup;
-			children = (
-				FB37DBFEBA2682EB27721727B32834D6 /* Pod */,
-				5C8439866DA34F2D109CCCA630717CAC /* Resources */,
-				E6FE5173170BAA9ABA51FAA4B5909AC6 /* Support Files */,
-			);
-			name = SnowFallView;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		C8929D698566A32BD97CB1A205754F5F /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				A7EE560715050AEE105C472B15D4D9DE /* SnowFallView */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		D91B69C464A59BD8FA340751A68A4408 /* Pods-SnowFallViewExample */ = {
-			isa = PBXGroup;
-			children = (
-				3032B02C489C365DC6175B69CFDD3524 /* Info.plist */,
-				E082CA5AA844B5B869603A1C00491162 /* Pods-SnowFallViewExample.modulemap */,
-				AEAC217524CA8FD943E072C5CDDD53AF /* Pods-SnowFallViewExample-acknowledgements.markdown */,
-				754E1DC8297366DCA9E8FBA1DE469B4E /* Pods-SnowFallViewExample-acknowledgements.plist */,
-				F19F4E9B7DD3C5784B7897C2E7DB0B3D /* Pods-SnowFallViewExample-dummy.m */,
-				7C35F8CBE1C2AE8D23F4D4E236B4C10F /* Pods-SnowFallViewExample-frameworks.sh */,
-				6A9F78F3D2673D21B35F1CEE0F27B1E5 /* Pods-SnowFallViewExample-resources.sh */,
-				3D995702D97C531245F950B8B2E70831 /* Pods-SnowFallViewExample-umbrella.h */,
-				60DF932DDE81EC4647E3414756C957B4 /* Pods-SnowFallViewExample.debug.xcconfig */,
-				B89CAAF8F14BA87CB0EF35E47B373AA9 /* Pods-SnowFallViewExample.release.xcconfig */,
+				3D47369E2E36FDE9A013F3B5BC306AE6 /* Pods-SnowFallViewExample.modulemap */,
+				5C83A455037774957309AC8B7C56C98C /* Pods-SnowFallViewExample-acknowledgements.markdown */,
+				EFC872775B0E871DE52B44F34E45EBF2 /* Pods-SnowFallViewExample-acknowledgements.plist */,
+				285E868BCBDE598DB424FAF4A695153B /* Pods-SnowFallViewExample-dummy.m */,
+				BD0805A38910E6FB8E2ED20C7E3FE0DC /* Pods-SnowFallViewExample-frameworks.sh */,
+				D322F22AF009B8AE8B2F02AC0BD28802 /* Pods-SnowFallViewExample-Info.plist */,
+				4B9A34D431D99C64C88EFE97C713A6A3 /* Pods-SnowFallViewExample-umbrella.h */,
+				E142A3DFCF7E369F581E0FB00DE51512 /* Pods-SnowFallViewExample.debug.xcconfig */,
+				53F9B32506ABC138DBFB0FDF40FF4D06 /* Pods-SnowFallViewExample.release.xcconfig */,
 			);
 			name = "Pods-SnowFallViewExample";
 			path = "Target Support Files/Pods-SnowFallViewExample";
 			sourceTree = "<group>";
 		};
-		E35B3E289DB984DA75A774080D293670 /* iOS */ = {
+		6CBE44CBF1029F55B662722E95AB9F2E /* SnowFallView */ = {
 			isa = PBXGroup;
 			children = (
-				23B3C2F7A60189AA38D256A0120B8730 /* CoreGraphics.framework */,
-				95FA9D6C62076D7840475E09238EED1E /* Foundation.framework */,
-				7F79ACD206D7284CF469DA6B24AFACE9 /* UIKit.framework */,
+				7A86707F928725AF31CA48928C68F994 /* SnowFallView.swift */,
+				719C184BEA26E22D08675A94F7F7D391 /* Pod */,
+				B4B821DB18B84367B525DFE28F157E2C /* Resources */,
+				F529EFF839D225E2DA9D93D9FB7DBA68 /* Support Files */,
 			);
-			name = iOS;
+			name = SnowFallView;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		E6FE5173170BAA9ABA51FAA4B5909AC6 /* Support Files */ = {
+		719C184BEA26E22D08675A94F7F7D391 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				E6E3DF46A625088E42DA423669896B60 /* Info.plist */,
-				4481A41598B518A73BA0AECC298D041D /* SnowFallView.modulemap */,
-				4F49FC5CC5316CF7203F4FCCAFD953FD /* SnowFallView.xcconfig */,
-				8B8EC8AF315AFF80BE9C71733BA48FAC /* SnowFallView-dummy.m */,
-				31D01AECFB66664714DB06BA1FFA736E /* SnowFallView-prefix.pch */,
-				38C0C4951B42250B3B11E63623EB93F9 /* SnowFallView-umbrella.h */,
+				21B412D8E4610DD0DE22F9AAA321C97D /* LICENSE */,
+				E516B659CB09EEE0EEE162A6F93CDDAA /* README.md */,
+				4775508DC7026884CE363108F8F0D419 /* SnowFallView.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		8BF0CBF2BEA7B5DA485E312BB4F3319E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6CBE44CBF1029F55B662722E95AB9F2E /* SnowFallView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		8FAACF0024AF4C23FC571D81D57CC7BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				907E6D2C6A3D151BC82CDE5DF1900468 /* Pods_SnowFallViewExample.framework */,
+				F4070021ABD039E7146D860A37E39D8D /* SnowFallView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4B821DB18B84367B525DFE28F157E2C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2C7D23E88E1ABF9BEC17F8FC41B7244C /* snowflake.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				8BF0CBF2BEA7B5DA485E312BB4F3319E /* Development Pods */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				8FAACF0024AF4C23FC571D81D57CC7BC /* Products */,
+				FE7C49469348790B3BB3DAD992354238 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		F529EFF839D225E2DA9D93D9FB7DBA68 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				788EB0EFF7A6C5F537CBEF46A3D032A6 /* SnowFallView.modulemap */,
+				19DE291301DB0AC76ED9A82273404CF0 /* SnowFallView.xcconfig */,
+				D69D23302393E713CE15AB602292C49C /* SnowFallView-dummy.m */,
+				DAC9FD8DC2B2B650C74E2A90DCA0DBD0 /* SnowFallView-Info.plist */,
+				59B49E16C050563C6928AE22CD61B11A /* SnowFallView-prefix.pch */,
+				435412DDA850A34897A5A90540D59018 /* SnowFallView-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/SnowFallView";
 			sourceTree = "<group>";
 		};
-		FB37DBFEBA2682EB27721727B32834D6 /* Pod */ = {
+		FE7C49469348790B3BB3DAD992354238 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9655C0226B1C90F288E126EB85CA95D6 /* Classes */,
+				6C518C5C7C2504550C3E01813DE977C0 /* Pods-SnowFallViewExample */,
 			);
-			path = Pod;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		52E0C0CF37D9FB913E14F04B17A3A0AF /* Headers */ = {
+		270931C581DC7046BE8B979D14735A08 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE64ED1E7810F54C09F8E15554C7A71F /* Pods-SnowFallViewExample-umbrella.h in Headers */,
+				AA4F7B4D51DF4A07559C51E1B0497F31 /* Pods-SnowFallViewExample-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9CD0F522E2F9CC5216F98E0F56183F85 /* Headers */ = {
+		F129F7E5B84C0126F32BC78DC869150B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E21CD6286659B1F90A48F8DBF6A2F57C /* SnowFallView-umbrella.h in Headers */,
+				7C8207B257934470B888A2BD8202569D /* SnowFallView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		61BC1ECD928FF0356F125CCEB0D9B20B /* SnowFallView */ = {
+		0A0EA0D82C795AA59A53CE73C5C4815D /* SnowFallView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C995A53E4226555A203DDCC0D4E993C9 /* Build configuration list for PBXNativeTarget "SnowFallView" */;
+			buildConfigurationList = C6DFA68E07F2B8A659ACBFCB4F3EB3AA /* Build configuration list for PBXNativeTarget "SnowFallView" */;
 			buildPhases = (
-				B4B5CFF622E1D5FF4866146EDA3E8EC7 /* Sources */,
-				73167257D83104F129C9410A80C1A414 /* Frameworks */,
-				B26C9A49BBE24CE1081DF2C6D004F981 /* Resources */,
-				9CD0F522E2F9CC5216F98E0F56183F85 /* Headers */,
+				F129F7E5B84C0126F32BC78DC869150B /* Headers */,
+				A339400924D05AEBE365A1226707EA50 /* Sources */,
+				CB6051B5A6B8572A3CF752BDFFF82A13 /* Frameworks */,
+				7E1E3C4D61FF0B23EA7FCE28F3B1475B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -252,281 +232,356 @@
 			);
 			name = SnowFallView;
 			productName = SnowFallView;
-			productReference = ABDDC457B5CBE9C45636E4283AF77F2E /* SnowFallView.framework */;
+			productReference = F4070021ABD039E7146D860A37E39D8D /* SnowFallView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		DB06183E92EFBC7CB8731BF00933DBFD /* Pods-SnowFallViewExample */ = {
+		E34155030AD90FB7E72DBB604CCEABE1 /* Pods-SnowFallViewExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E4CE2AC57AEDB05203AD7DC53C790162 /* Build configuration list for PBXNativeTarget "Pods-SnowFallViewExample" */;
+			buildConfigurationList = 44E8036FC5CCFF17EC9594004B14A81D /* Build configuration list for PBXNativeTarget "Pods-SnowFallViewExample" */;
 			buildPhases = (
-				D70F0361F1CDE3702A08DB0D63CAE2D8 /* Sources */,
-				6DAC71EAE4BF791FA00B693FD1CCAF28 /* Frameworks */,
-				52E0C0CF37D9FB913E14F04B17A3A0AF /* Headers */,
+				270931C581DC7046BE8B979D14735A08 /* Headers */,
+				B2DBBAB6D37263E957DE34DE3A2B3824 /* Sources */,
+				6024A8CAE013FB6C1BD333ECFBED0F49 /* Frameworks */,
+				1223E74BA83691A118499A8BA6B5AE69 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				97C8DDDF39D1E06FA9503CE969CD1C16 /* PBXTargetDependency */,
+				DE39656B45532F3C0A28E4543AFD3D87 /* PBXTargetDependency */,
 			);
 			name = "Pods-SnowFallViewExample";
 			productName = "Pods-SnowFallViewExample";
-			productReference = 1617EECFCA45FFB9CA525F11518B9F14 /* Pods_SnowFallViewExample.framework */;
+			productReference = 907E6D2C6A3D151BC82CDE5DF1900468 /* Pods_SnowFallViewExample.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0700;
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 7762534F9A01AB9DF628586D891E25A0 /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8FAACF0024AF4C23FC571D81D57CC7BC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DB06183E92EFBC7CB8731BF00933DBFD /* Pods-SnowFallViewExample */,
-				61BC1ECD928FF0356F125CCEB0D9B20B /* SnowFallView */,
+				E34155030AD90FB7E72DBB604CCEABE1 /* Pods-SnowFallViewExample */,
+				0A0EA0D82C795AA59A53CE73C5C4815D /* SnowFallView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B26C9A49BBE24CE1081DF2C6D004F981 /* Resources */ = {
+		1223E74BA83691A118499A8BA6B5AE69 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AC56314A2212B7A9630140473474B96 /* snowflake.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E1E3C4D61FF0B23EA7FCE28F3B1475B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A52DC75D7FC02298BE0D67F58C6C8F9 /* snowflake.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B4B5CFF622E1D5FF4866146EDA3E8EC7 /* Sources */ = {
+		A339400924D05AEBE365A1226707EA50 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD669CCAE9529DA9E71E36A401CF9289 /* SnowFallView-dummy.m in Sources */,
-				FB1CEB0C784C4ACC2DEDCA5843073902 /* SnowFallView.swift in Sources */,
+				E42BC12FB2E1C9C0E65A12DE398A97AE /* SnowFallView-dummy.m in Sources */,
+				E4A0B612041A295A814FD77A7563FDB4 /* SnowFallView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D70F0361F1CDE3702A08DB0D63CAE2D8 /* Sources */ = {
+		B2DBBAB6D37263E957DE34DE3A2B3824 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D73F48DDE784AF0098C42B041A0FC690 /* Pods-SnowFallViewExample-dummy.m in Sources */,
+				8E3AE6698BCF02FB1996EB33812DF798 /* Pods-SnowFallViewExample-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		97C8DDDF39D1E06FA9503CE969CD1C16 /* PBXTargetDependency */ = {
+		DE39656B45532F3C0A28E4543AFD3D87 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SnowFallView;
-			target = 61BC1ECD928FF0356F125CCEB0D9B20B /* SnowFallView */;
-			targetProxy = 9E87E832F0428A7445A4F4C6BEFA324A /* PBXContainerItemProxy */;
+			target = 0A0EA0D82C795AA59A53CE73C5C4815D /* SnowFallView */;
+			targetProxy = 01704FB78F1557E3C020F5E253B03E63 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1E9828375D621CC289913B383598F9CF /* Debug */ = {
+		180CF248018978E7326F06FB1CD766CD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 60DF932DDE81EC4647E3414756C957B4 /* Pods-SnowFallViewExample.debug.xcconfig */;
+			baseConfigurationReference = E142A3DFCF7E369F581E0FB00DE51512 /* Pods-SnowFallViewExample.debug.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-SnowFallViewExample/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-SnowFallViewExample/Pods-SnowFallViewExample-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SnowFallViewExample/Pods-SnowFallViewExample.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_SnowFallViewExample;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		511103F7F15A7E8F83B268EA03462CAB /* Release */ = {
+		2C93F33E2E172697695FB53C215D8052 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19DE291301DB0AC76ED9A82273404CF0 /* SnowFallView.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_VERSION = 4.2;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		7E6BA1F67D8FF880E4C669960AE16EC2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F49FC5CC5316CF7203F4FCCAFD953FD /* SnowFallView.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/SnowFallView/SnowFallView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SnowFallView/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/SnowFallView/SnowFallView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SnowFallView/SnowFallView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_MODULE_NAME = SnowFallView;
 				PRODUCT_NAME = SnowFallView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		9C33841FAE676E69147E9F00805A7632 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F49FC5CC5316CF7203F4FCCAFD953FD /* SnowFallView.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SnowFallView/SnowFallView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SnowFallView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SnowFallView/SnowFallView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SnowFallView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		AA05AF9C3A14EE0E32F42C6E6D42D34F /* Debug */ = {
+		3048B0C5C704DFFF688DA57F5380ED58 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5B0C8287D755FD95091CF35D87FB8B2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		B7E9E80DDC05FB4CB1C65DEB89C4A2CD /* Release */ = {
+		6207E981F6B0AF1C2D639C939D190114 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B89CAAF8F14BA87CB0EF35E47B373AA9 /* Pods-SnowFallViewExample.release.xcconfig */;
+			baseConfigurationReference = 53F9B32506ABC138DBFB0FDF40FF4D06 /* Pods-SnowFallViewExample.release.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-SnowFallViewExample/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-SnowFallViewExample/Pods-SnowFallViewExample-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SnowFallViewExample/Pods-SnowFallViewExample.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_SnowFallViewExample;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C6570057A9F5D2A5D78AEAEFC67E9F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19DE291301DB0AC76ED9A82273404CF0 /* SnowFallView.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SnowFallView/SnowFallView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnowFallView/SnowFallView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnowFallView/SnowFallView.modulemap";
+				PRODUCT_MODULE_NAME = SnowFallView;
+				PRODUCT_NAME = SnowFallView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -535,34 +590,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		44E8036FC5CCFF17EC9594004B14A81D /* Build configuration list for PBXNativeTarget "Pods-SnowFallViewExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AA05AF9C3A14EE0E32F42C6E6D42D34F /* Debug */,
-				511103F7F15A7E8F83B268EA03462CAB /* Release */,
+				180CF248018978E7326F06FB1CD766CD /* Debug */,
+				6207E981F6B0AF1C2D639C939D190114 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C995A53E4226555A203DDCC0D4E993C9 /* Build configuration list for PBXNativeTarget "SnowFallView" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7E6BA1F67D8FF880E4C669960AE16EC2 /* Debug */,
-				9C33841FAE676E69147E9F00805A7632 /* Release */,
+				5B0C8287D755FD95091CF35D87FB8B2D /* Debug */,
+				3048B0C5C704DFFF688DA57F5380ED58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E4CE2AC57AEDB05203AD7DC53C790162 /* Build configuration list for PBXNativeTarget "Pods-SnowFallViewExample" */ = {
+		C6DFA68E07F2B8A659ACBFCB4F3EB3AA /* Build configuration list for PBXNativeTarget "SnowFallView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1E9828375D621CC289913B383598F9CF /* Debug */,
-				B7E9E80DDC05FB4CB1C65DEB89C4A2CD /* Release */,
+				2C93F33E2E172697695FB53C215D8052 /* Debug */,
+				C6570057A9F5D2A5D78AEAEFC67E9F99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }
